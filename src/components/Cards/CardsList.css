@@ -1,0 +1,26 @@
+.cardsList{
+    display: grid;
+    padding: 25px;
+    grid-template-columns: 
+        fit-content(20vh)
+        fit-content(20vh)
+        fit-content(20vh)
+        fit-content(20vh)
+        fit-content(20vh);
+    grid-template-rows: 500px;
+
+    justify-content: space-around;
+}
+
+#prevButton{
+    position:fixed;
+}
+#nextButton{
+    position: fixed;
+    margin-left: 100px;
+}
+
+#pokemonPage{
+    position: fixed;
+    margin-left: 200px;
+}
