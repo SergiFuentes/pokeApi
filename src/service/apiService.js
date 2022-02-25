@@ -1,13 +1,13 @@
 import axios from "axios";
-import apiServer from "./endpoints";
+/* import apiServer from "./endpoints"; */
 
-export async function getAllCards() {
-  return axios.get(apiServer).then((res) => res.data);
+export async function getAllCards(url) {
+  return axios.get(url).then((res) => res.data);
 }
 
 
-export async function getUrl() {
-    return axios.get(apiServer).then((res) => console.log(res.data.next)) &&
-     axios.get(apiServer).then((res) => console.log(res.data.previous));
-  }
+export async function getPokemon ( url )
+{
+  return axios.get( url ).then( ( res ) => { return res.data; } );
+}
 

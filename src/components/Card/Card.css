@@ -29,6 +29,8 @@
     overflow: hidden;
 }
 .pokemonNameTitle {
+  font-size: 1.5rem;
 }
 .pokemonName {
+  font-size: 2rem;
 }
